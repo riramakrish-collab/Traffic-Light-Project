@@ -41,7 +41,7 @@ Implemented everything on a breadboard with discrete logic gate ICs. Active-low 
  
 
  
-![Traffic Light](assets/Traffic%20Signal.png)
+![Traffic Light](assets/TrafficSignal.png)
  
 ---
  

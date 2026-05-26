@@ -41,15 +41,15 @@ Implemented everything on a breadboard with discrete logic gate ICs. Active-low 
  
 
  
-![Traffic Light](assets/TrafficSignal.png)
+![Traffic Light](assets/Traffic%20Signal2.png)
  
 ---
  
 ## Honest Reflection
  
-Getting the sequential logic to work was the hardest part. The circuit wasn't cycling through states correctly at first — I'm pretty sure it was a wiring error somewhere in the flip-flop section. Learned that testing each subsystem independently (clock first, then state machine, then outputs) is the right approach instead of trying to debug everything at once.
+Getting the sequential logic to work was the hardest part. The circuit wasn't cycling through states correctly at first; it was a wiring error in the flip-flop section. Learned that testing each subsystem independently (clock first, then state machine, then outputs) is the right approach instead of trying to debug everything at once.
  
-Also thought about what happens if there's a power interruption, if the state machine resets randomly you could end up with two green lights on at the same time, which is obviously a problem. The fix would be to default to all-red after power is restored, then resume normal operation.
+Also thought about what happens if there's a power interruption, if the state machine resets randomly, you could end up with two green lights on at the same time, which is obviously a problem. The fix would be to default to all-red after power is restored, then resume normal operation.
  
 ---
  
